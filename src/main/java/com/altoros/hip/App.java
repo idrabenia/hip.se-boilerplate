@@ -18,8 +18,6 @@ import se.hip.sdk.listener.PropertyListener;
 @SpringBootApplication
 public class App {
 
-    private static Hip hip;
-
     public static void main(String[] args) throws Exception {
         final SpringApplicationBuilder builder  = new SpringApplicationBuilder();
         builder.listeners(new PropertyListener());
