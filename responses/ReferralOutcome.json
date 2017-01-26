@@ -1,0 +1,213 @@
+{
+  "status" : {
+    "errors" : [ ]
+  },
+  "payload" : {
+    "infoType" : "referraloutcome",
+    "type" : "REFERRAL_OUTCOME",
+    "status" : {
+      "errors" : [ ],
+      "filterCount" : 3,
+      "totalCount" : 3,
+      "resultTimespan" : [ {
+        "year" : 2014,
+        "monthlyOccasions" : [ {
+          "monthOfYear" : 10,
+          "occasions" : [ 1412752320000, 1412752320000, 1412752320000 ]
+        } ]
+      } ]
+    },
+    "sourceSystemStatistics" : [ {
+      "system" : "HSA-ID-1",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-2",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-3",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-4",
+      "successful" : false
+    } ],
+    "data" : [ {
+      "id" : "774411@SE2321000016-4M7T",
+      "index" : 0,
+      "time" : 1412752320000,
+      "signedBy" : null,
+      "signed" : 1412752320000,
+      "approvedForPatient" : true,
+      "informationType" : "und-kon",
+      "nullified" : null,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "SE2321000016-4M7T",
+      "careProviderHsaId" : "SE2321000016-4M7T",
+      "type" : "Slutsvar på remissfråga",
+      "title" : "Mottagning t9",
+      "text" : "Kommer för uppföljning ang sina underbensödem och sin hjärtsvikt.",
+      "clinicalInformation" : [ {
+        "text" : "Pat. har hjärtsvikt",
+        "code" : "ICD-214"
+      }, {
+        "text" : "Pat. har pacemaker",
+        "code" : "ICD-214"
+      }, {
+        "text" : "Pat. har hjärtsvikt",
+        "code" : "ICD-214"
+      }, {
+        "text" : "Pat. har pacemaker",
+        "code" : "ICD-214"
+      } ],
+      "accountableProfessional" : {
+        "authorTime" : 1412752320000,
+        "name" : "Ortopedkliniken",
+        "hsaId" : "SE2321000016-4M7T",
+        "role" : "12",
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Ortopedkliniken",
+          "hsaId" : "42",
+          "email" : null,
+          "address" : null,
+          "phone" : null,
+          "location" : null
+        }
+      },
+      "acts" : [ {
+        "id" : null,
+        "text" : "Tidigare sjukdomar : Se tidigare anteckningar. Men stora besvär av underbensödem p g a varicer med bensår.",
+        "time" : 1388563200000
+      } ],
+      "referral" : {
+        "reason" : "text",
+        "time" : 1412752320000,
+        "author" : {
+          "authorTime" : 1412752320000,
+          "name" : null,
+          "hsaId" : "SE2321000016-4M7T",
+          "role" : null,
+          "careUnitHsaId" : null,
+          "orgUnit" : {
+            "name" : "Ortopedkliniken",
+            "hsaId" : "SE2321000016-4M7T",
+            "email" : null,
+            "address" : null,
+            "phone" : null,
+            "location" : null
+          }
+        }
+      }
+    }, {
+      "id" : "774412@321654987",
+      "index" : 1,
+      "time" : 1412752320000,
+      "signedBy" : null,
+      "signed" : 1412752320000,
+      "approvedForPatient" : true,
+      "informationType" : "und-kon",
+      "nullified" : null,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "SE2321000016-4M7T",
+      "careProviderHsaId" : "SE2321000016-4M7T",
+      "type" : "Svar på remissfråga",
+      "title" : "Sjukgymnastikanteckning",
+      "text" : "Behandling för att förbättra rörlighet i bröstrygg",
+      "clinicalInformation" : [ ],
+      "accountableProfessional" : {
+        "authorTime" : 1412752320000,
+        "name" : "Mottagning t9",
+        "hsaId" : "SE2321000016-4M7T",
+        "role" : "11",
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Ortopedkliniken",
+          "hsaId" : "42",
+          "email" : null,
+          "address" : null,
+          "phone" : null,
+          "location" : null
+        }
+      },
+      "acts" : [ {
+        "id" : null,
+        "text" : "Sjukgymnastikanteckning",
+        "time" : null
+      } ],
+      "referral" : {
+        "reason" : "Pat. är fixerat i nedre bröstrygg",
+        "time" : 1412752320000,
+        "author" : {
+          "authorTime" : 1412752320000,
+          "name" : null,
+          "hsaId" : "SE2321000016-4M7T",
+          "role" : null,
+          "careUnitHsaId" : null,
+          "orgUnit" : {
+            "name" : "Ortopedkliniken",
+            "hsaId" : "SE2321000016-4M7T",
+            "email" : null,
+            "address" : null,
+            "phone" : null,
+            "location" : null
+          }
+        }
+      }
+    }, {
+      "id" : "774413@SE2321000016-4M7T",
+      "index" : 2,
+      "time" : 1412752320000,
+      "signedBy" : null,
+      "signed" : 1412752320000,
+      "approvedForPatient" : true,
+      "informationType" : "und-kon",
+      "nullified" : null,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "SE2321000016-4M7T",
+      "careProviderHsaId" : "SE2321000016-4M7T",
+      "type" : "Svar på remissfråga",
+      "title" : "Arbetsterapianteckning",
+      "text" : "Utfört övningar enligt schema.",
+      "clinicalInformation" : [ ],
+      "accountableProfessional" : {
+        "authorTime" : 1412752320000,
+        "name" : "Ortopedkliniken",
+        "hsaId" : "SE2321000016-4M7T",
+        "role" : "11",
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Ortopedkliniken",
+          "hsaId" : "SE2321000016-4M7T",
+          "email" : null,
+          "address" : null,
+          "phone" : null,
+          "location" : null
+        }
+      },
+      "acts" : [ {
+        "id" : null,
+        "text" : "Utfört övningar enligt schema.",
+        "time" : null
+      } ],
+      "referral" : {
+        "reason" : "Rörlighet fingrar",
+        "time" : 1412752320000,
+        "author" : {
+          "authorTime" : 1412752320000,
+          "name" : "Karl Karlsson",
+          "hsaId" : "SE2321000016-4M7T",
+          "role" : "fortyseven",
+          "careUnitHsaId" : null,
+          "orgUnit" : {
+            "name" : "Ortopedkliniken",
+            "hsaId" : "SE2321000016-4M7T",
+            "email" : null,
+            "address" : null,
+            "phone" : null,
+            "location" : null
+          }
+        }
+      }
+    } ],
+    "blockedCareProviders" : [ ]
+  }
+}

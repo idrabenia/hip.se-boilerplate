@@ -1,0 +1,165 @@
+{
+  "status" : {
+    "errors" : [ ]
+  },
+  "payload" : {
+    "infoType" : "carecontacts",
+    "type" : "HEALTH_CARE_CONTACT",
+    "status" : {
+      "errors" : [ ],
+      "filterCount" : 3,
+      "totalCount" : 3,
+      "resultTimespan" : [ {
+        "year" : 2015,
+        "monthlyOccasions" : [ {
+          "monthOfYear" : 10,
+          "occasions" : [ 1444714200000 ]
+        }, {
+          "monthOfYear" : 5,
+          "occasions" : [ 1431241200000 ]
+        } ]
+      }, {
+        "year" : 2013,
+        "monthlyOccasions" : [ {
+          "monthOfYear" : 5,
+          "occasions" : [ 1368172800000 ]
+        } ]
+      } ]
+    },
+    "sourceSystemStatistics" : [ {
+      "system" : "HSA-ID-1",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-2",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-3",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-4",
+      "successful" : false
+    } ],
+    "data" : [ {
+      "id" : "18585211@4367866865745436",
+      "index" : 0,
+      "time" : 1444714200000,
+      "signedBy" : null,
+      "signed" : null,
+      "approvedForPatient" : true,
+      "informationType" : "vko",
+      "nullified" : null,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "SE2321000172-13BN",
+      "careProviderHsaId" : "SE2321000172-2DB3",
+      "startTime" : 1444714200000,
+      "endTime" : null,
+      "reason" : "Test av avbokad tid",
+      "statusCode" : "Inställd",
+      "typeCode" : "Besök",
+      "accountableProfessional" : {
+        "authorTime" : 1444742340000,
+        "name" : "Testperson",
+        "hsaId" : "SE2321000532-1256",
+        "role" : "Läkare",
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Testenhet",
+          "hsaId" : "SE23210021-234674",
+          "email" : "enhet@sjukhus.se",
+          "address" : "Sjukhuset, 12345 Västerås",
+          "phone" : "021-12345678",
+          "location" : "Västerås"
+        }
+      },
+      "careUnit" : {
+        "name" : "Testenhet",
+        "hsaId" : "SE2321000172-13BN",
+        "email" : "enhet@sjukhus.se",
+        "address" : null,
+        "phone" : "021-12345678",
+        "location" : "Västerås"
+      }
+    }, {
+      "id" : "44546848668684@TEST_SE2321000172-64213",
+      "index" : 1,
+      "time" : 1431241200000,
+      "signedBy" : null,
+      "signed" : null,
+      "approvedForPatient" : true,
+      "informationType" : "vko",
+      "nullified" : null,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "se160000000-aj74",
+      "careProviderHsaId" : "SE162321000255-O00001",
+      "startTime" : 1431241200000,
+      "endTime" : 1431523620000,
+      "reason" : "Buksmärta",
+      "statusCode" : "Ej påbörjad",
+      "typeCode" : "Besök",
+      "accountableProfessional" : {
+        "authorTime" : 1431523140000,
+        "name" : "Testperson",
+        "hsaId" : "SE2321000128-16587674",
+        "role" : "Läkare",
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Testenhet",
+          "hsaId" : "SE23210021-234674",
+          "email" : "enhet@sjukhus.se",
+          "address" : "Sjukhuset, 12345 Västerås",
+          "phone" : "021-12345678",
+          "location" : "Västerås"
+        }
+      },
+      "careUnit" : {
+        "name" : "Testenhet",
+        "hsaId" : "SE23210021-234674",
+        "email" : "enhet@sjukhus.se",
+        "address" : null,
+        "phone" : "021-12345678",
+        "location" : "Västerås"
+      }
+    }, {
+      "id" : "18585210@TEST_SE2321000172-1254",
+      "index" : 2,
+      "time" : 1368172800000,
+      "signedBy" : null,
+      "signed" : null,
+      "approvedForPatient" : true,
+      "informationType" : "vko",
+      "nullified" : null,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "SE2321000172-13BN",
+      "careProviderHsaId" : "SE2321000172-2DB3",
+      "startTime" : 1368172800000,
+      "endTime" : 1368451620000,
+      "reason" : "Buksmärta",
+      "statusCode" : "Avslutad",
+      "typeCode" : "Besök",
+      "accountableProfessional" : {
+        "authorTime" : 1368451140000,
+        "name" : "Testperson",
+        "hsaId" : "SE23210021-234674",
+        "role" : "Läkare",
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Testenhet",
+          "hsaId" : "232100-0255O12261",
+          "email" : "enhet@sjukhus.se",
+          "address" : "Sjukhuset, 12345 Västerås",
+          "phone" : "021-12345678",
+          "location" : "Västerås"
+        }
+      },
+      "careUnit" : {
+        "name" : "Testenhet",
+        "hsaId" : "SE23210021-234674",
+        "email" : "enhet@sjukhus.se",
+        "address" : null,
+        "phone" : "021-12345678",
+        "location" : "Västerås"
+      }
+    } ],
+    "blockedCareProviders" : [ ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status" : {
+    "errors" : [ ]
+  },
+  "payload" : {
+    "privacyMarked" : false,
+    "personId" : "191212121212",
+    "firstname" : "Tolvan",
+    "lastname" : "Tolvansson",
+    "countyCode" : null,
+    "municipalityCode" : null,
+    "assemblyCode" : null,
+    "propertyDesignation" : null,
+    "streetAddress" : "Landsvägsgatan 14",
+    "postalCode" : "413 04",
+    "city" : "Göteborg"
+  }
+}

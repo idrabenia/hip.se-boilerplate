@@ -1,0 +1,9 @@
+{
+  "status" : {
+    "errors" : [ ]
+  },
+  "payload" : {
+    "valid" : true,
+    "allowed" : true
+  }
+}

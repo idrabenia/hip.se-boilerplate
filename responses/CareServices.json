@@ -1,0 +1,54 @@
+{
+  "status" : {
+    "errors" : [ ]
+  },
+  "payload" : {
+    "infoType" : "careservices",
+    "type" : "HEALTH_CARE_SERVICE",
+    "status" : {
+      "errors" : [ ],
+      "filterCount" : 1,
+      "totalCount" : 1,
+      "resultTimespan" : [ {
+        "year" : 2013,
+        "monthlyOccasions" : [ {
+          "monthOfYear" : 1,
+          "occasions" : [ 1357384500000 ]
+        } ]
+      } ]
+    },
+    "sourceSystemStatistics" : [ {
+      "system" : "HSA-ID-1",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-2",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-3",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-4",
+      "successful" : false
+    } ],
+    "data" : [ {
+      "id" : "0",
+      "index" : 0,
+      "time" : 1357384500000,
+      "signedBy" : "ulrik fröberg",
+      "signed" : 1357385400000,
+      "approvedForPatient" : true,
+      "informationType" : "vot",
+      "nullified" : false,
+      "nullifiedReason" : "certo et",
+      "careUnitHsaId" : "SE-EA99212312-95",
+      "careProviderHsaId" : "SE-EA99212312-95",
+      "typeOfCareService" : "LSS",
+      "startTime" : 1357384500000,
+      "endTime" : 1420059600000,
+      "input" : "Omläggning brännskada",
+      "scope" : "Höger hand",
+      "housing" : "Behandling"
+    } ],
+    "blockedCareProviders" : [ ]
+  }
+}

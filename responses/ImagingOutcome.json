@@ -1,0 +1,246 @@
+{
+  "status" : {
+    "errors" : [ ]
+  },
+  "payload" : {
+    "infoType" : "imagingoutcome",
+    "type" : "IMAGING_OUTCOME",
+    "status" : {
+      "errors" : [ ],
+      "filterCount" : 2,
+      "totalCount" : 2,
+      "resultTimespan" : [ {
+        "year" : 2013,
+        "monthlyOccasions" : [ {
+          "monthOfYear" : 8,
+          "occasions" : [ 1375435402000 ]
+        } ]
+      }, {
+        "year" : 2010,
+        "monthlyOccasions" : [ {
+          "monthOfYear" : 4,
+          "occasions" : [ 1271019600000 ]
+        } ]
+      } ]
+    },
+    "sourceSystemStatistics" : [ {
+      "system" : "HSA-ID-1",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-2",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-3",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-4",
+      "successful" : false
+    } ],
+    "data" : [ {
+      "id" : "774412@TSE2321000032-1011",
+      "index" : 0,
+      "time" : 1375435402000,
+      "signedBy" : null,
+      "signed" : 1269208800000,
+      "approvedForPatient" : true,
+      "informationType" : "und-bdi",
+      "nullified" : null,
+      "nullifiedReason" : "1",
+      "careUnitHsaId" : "TSE2321000032-1011",
+      "careProviderHsaId" : "TSE2321000032-1011",
+      "examinationSpecialty" : null,
+      "resultTime" : 1269208800000,
+      "resultReport" : "Svar: en relativt homogen förtätning apikalt medialt höger, skulle möjligen kunna utgöras av en lobus vena azygos men annan genes kan ej uteslutas ….. kontroll föreslås.  Läkare: Johanna Jonsson",
+      "resultComment" : "1",
+      "typeOfResult" : "Definitivsvar",
+      "multipleExecutingProfessionals" : false,
+      "radiationDoses" : [ {
+        "unit" : "1",
+        "value" : 1.0
+      } ],
+      "recordings" : [ {
+        "id" : {
+          "root" : "1",
+          "extension" : "1"
+        },
+        "examinationActivity" : "Lungröntgen",
+        "examinationStatus" : "AVKLARAD",
+        "examinationUnit" : "1",
+        "numberOfImages" : 1,
+        "accountableProfessional" : {
+          "authorTime" : 1269208800000,
+          "name" : "1",
+          "hsaId" : "TSE2321000032-1011",
+          "role" : "Läkare",
+          "careUnitHsaId" : null,
+          "orgUnit" : {
+            "name" : "Medicinkliniken",
+            "hsaId" : "TSE2321000032-1011",
+            "email" : "",
+            "address" : "Zettergrenska sjukhuset Box 110,641 22,Österstad",
+            "phone" : "0123-123456vx",
+            "location" : "Österstad"
+          }
+        },
+        "imageStructuredData" : [ {
+          "imageData" : {
+            "mediaType" : "image/png",
+            "reference" : null
+          }
+        } ]
+      } ],
+      "referral" : {
+        "id" : null,
+        "reason" : "1",
+        "anamnesis" : "1",
+        "careContactId" : "1",
+        "accountableProfessional" : {
+          "authorTime" : 1269208800000,
+          "name" : "Medicinkliniken",
+          "hsaId" : "TSE2321000032-1011",
+          "role" : "some role",
+          "careUnitHsaId" : null,
+          "orgUnit" : {
+            "name" : "Medicinkliniken",
+            "hsaId" : "TSE2321000032-1011",
+            "email" : "",
+            "address" : "Zettergrenska sjukhuset Box 110,641 22,Österstad",
+            "phone" : "0123-123456vx",
+            "location" : "Österstad"
+          }
+        },
+        "attestedBy" : {
+          "authorTime" : 1269208800000,
+          "name" : null,
+          "hsaId" : "TSE2321000032-1011",
+          "role" : null,
+          "careUnitHsaId" : null,
+          "orgUnit" : null
+        },
+        "signed" : 1269208800000
+      },
+      "executingProfessional" : {
+        "authorTime" : 1375435402000,
+        "name" : "Medicinklinik",
+        "hsaId" : "TSE2321000032-1011",
+        "role" : "1",
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Medicinkliniken",
+          "hsaId" : "TSE2321000032-1011",
+          "email" : "",
+          "address" : "Zettergrenska sjukhuset Box 110,641 22,Österstad",
+          "phone" : "0123-123456vx",
+          "location" : "Österstad"
+        }
+      },
+      "patientWeight" : 1.0,
+      "patientWeightUnit" : "1",
+      "patientLength" : 1.0,
+      "patientLengthUnit" : "1"
+    }, {
+      "id" : "1@TSE2321000032-1011",
+      "index" : 1,
+      "time" : 1271019600000,
+      "signedBy" : null,
+      "signed" : 1271019600000,
+      "approvedForPatient" : false,
+      "informationType" : "und-bdi",
+      "nullified" : null,
+      "nullifiedReason" : "1",
+      "careUnitHsaId" : "TSE2321000032-1011",
+      "careProviderHsaId" : "TSE2321000032-1011",
+      "examinationSpecialty" : null,
+      "resultTime" : 1271019600000,
+      "resultReport" : "Svar: Normal rgt. Inga fynd. Svarsdatum:20100418. Dikterande läkare: Johanna Johansson Signerande läkare: Johanna Johansson",
+      "resultComment" : "Svar: Normal rgt. Inga fynd. Svarsdatum:20100418. Dikterande läkare: Johanna Johansson Signerande läkare: Johanna Johansson",
+      "typeOfResult" : "Preliminärsvar",
+      "multipleExecutingProfessionals" : false,
+      "radiationDoses" : [ {
+        "unit" : "μSi",
+        "value" : 1.2
+      } ],
+      "recordings" : [ {
+        "id" : {
+          "root" : "1",
+          "extension" : "1"
+        },
+        "examinationActivity" : "Lungröntgen",
+        "examinationStatus" : "INITIERAD",
+        "examinationUnit" : "1",
+        "numberOfImages" : 1,
+        "accountableProfessional" : {
+          "authorTime" : 1271019600000,
+          "name" : "Ulla Storm",
+          "hsaId" : "TSE2321000032-1011",
+          "role" : "Läkare",
+          "careUnitHsaId" : null,
+          "orgUnit" : {
+            "name" : "Medicinkliniken",
+            "hsaId" : "TSE2321000032-1011",
+            "email" : "",
+            "address" : "Zettergrenska sjukhuset Box 110,641 22,Österstad",
+            "phone" : "0123-123456vx",
+            "location" : "Österstad"
+          }
+        },
+        "imageStructuredData" : [ {
+          "imageData" : {
+            "mediaType" : "image/png",
+            "reference" : null
+          }
+        } ]
+      } ],
+      "referral" : {
+        "id" : null,
+        "reason" : "Önskad undersökning Normalt status? Patologiska fynd?  Status: Pneumoni, 10 dagars antibiotikabehandling avslutad.",
+        "anamnesis" : "1",
+        "careContactId" : "1",
+        "accountableProfessional" : {
+          "authorTime" : 1271019600000,
+          "name" : "1",
+          "hsaId" : "TSE2321000032-1011",
+          "role" : "203090",
+          "careUnitHsaId" : null,
+          "orgUnit" : {
+            "name" : "Medicinkliniken",
+            "hsaId" : "TSE2321000032-1011",
+            "email" : "",
+            "address" : "Zettergrenska sjukhuset Box 110,641 22,Österstad",
+            "phone" : "0123-123456vx",
+            "location" : "Österstad"
+          }
+        },
+        "attestedBy" : {
+          "authorTime" : 1271019600000,
+          "name" : null,
+          "hsaId" : "TSE2321000032-1011",
+          "role" : null,
+          "careUnitHsaId" : null,
+          "orgUnit" : null
+        },
+        "signed" : 1271019600000
+      },
+      "executingProfessional" : {
+        "authorTime" : 1271019600000,
+        "name" : "Medicinkliniken Österstad",
+        "hsaId" : "TSE2321000032-1011",
+        "role" : "Läkare",
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Medicinkliniken",
+          "hsaId" : "TSE2321000032-1011",
+          "email" : "",
+          "address" : "Zettergrenska sjukhuset Box 110,641 22,Österstad",
+          "phone" : "0123-123456vx",
+          "location" : "Österstad"
+        }
+      },
+      "patientWeight" : 80.0,
+      "patientWeightUnit" : "kg",
+      "patientLength" : 160.0,
+      "patientLengthUnit" : "cm"
+    } ],
+    "blockedCareProviders" : [ ]
+  }
+}

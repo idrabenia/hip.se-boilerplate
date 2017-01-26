@@ -1,0 +1,299 @@
+{
+  "status" : {
+    "errors" : [ ]
+  },
+  "payload" : {
+    "infoType" : "vaccinations",
+    "type" : "VACCINATION",
+    "status" : {
+      "errors" : [ ],
+      "filterCount" : 3,
+      "totalCount" : 3,
+      "resultTimespan" : [ {
+        "year" : 2015,
+        "monthlyOccasions" : [ {
+          "monthOfYear" : 4,
+          "occasions" : [ 1429218000000, 1429218000000, 1429563600000 ]
+        } ]
+      } ]
+    },
+    "sourceSystemStatistics" : [ {
+      "system" : "HSA-ID-1",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-2",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-3",
+      "successful" : true
+    }, {
+      "system" : "HSA-ID-4",
+      "successful" : false
+    } ],
+    "data" : [ {
+      "id" : "78f3f1ca-1e4e-4d0a-ba93-46de4830d9f5@T_SERVICES_SE165565594230-108R",
+      "index" : null,
+      "time" : 1429218000000,
+      "signedBy" : "Eva Biberg",
+      "signed" : 1478342264400000,
+      "approvedForPatient" : true,
+      "informationType" : "lko",
+      "nullified" : false,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "SE55643237481007",
+      "careProviderHsaId" : "SE5564323748-0001",
+      "accountableProfessional" : {
+        "authorTime" : 1429252758000,
+        "name" : "Eva Biberg",
+        "hsaId" : null,
+        "role" : null,
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Barn- och Ungdomsmed mottagn, Värnamo",
+          "hsaId" : null,
+          "email" : null,
+          "address" : "Doktorsgatan , 331 85 VÄRNAMO",
+          "phone" : null,
+          "location" : null
+        }
+      },
+      "registrationRecord" : {
+        "date" : 1429218000000,
+        "note" : null,
+        "riskCategories" : [ ],
+        "patientAdverseEffects" : [ ],
+        "careGiverOrg" : {
+          "name" : "Mawell",
+          "hsaId" : "SE5564323748-0001",
+          "email" : null,
+          "address" : null,
+          "phone" : null,
+          "location" : null
+        },
+        "careGiverContact" : null,
+        "sourceSystemContact" : {
+          "hsaId" : null,
+          "name" : "Thord Arbin",
+          "phone" : null,
+          "email" : null,
+          "address" : null
+        },
+        "careUnitSmiId" : null
+      },
+      "administrationRecord" : {
+        "vaccinationProgramName" : null,
+        "prescriberOrg" : null,
+        "performerOrg" : {
+          "name" : "Sjukhus A",
+          "hsaId" : "SE55643237481007",
+          "email" : null,
+          "address" : null,
+          "phone" : null,
+          "location" : null
+        },
+        "anatomicalSite" : "Vä arm",
+        "route" : "I.M.",
+        "isDoseComplete" : true,
+        "doseOrdinalNumber" : null,
+        "numberOfPrescribedDoses" : null,
+        "sourceDescription" : null,
+        "commentPrescription" : null,
+        "commentAdministration" : null,
+        "patientAdverseEffects" : [ ],
+        "vaccineType" : "Tick-borne encephalitis vaccine",
+        "vaccineName" : "Encepur Barn",
+        "vaccineBatchId" : "146031F",
+        "vaccineManufacturer" : "Novartis Vaccines and Diagnostics",
+        "vaccineTargetDiseases" : [ "TBE, fästingburen virusencefalit" ],
+        "prescriber" : null,
+        "performer" : {
+          "hsaId" : null,
+          "name" : "Eva Biberg",
+          "phone" : null,
+          "email" : null,
+          "address" : null
+        },
+        "dose" : {
+          "quantity" : null,
+          "displayName" : "Encepur Barn 0,25 ml"
+        }
+      }
+    }, {
+      "id" : "78f3f1ca-1e4e-4d0a-ba93-46de4830d9f5@T_SERVICES_SE165565594230-108R",
+      "index" : null,
+      "time" : 1429218000000,
+      "signedBy" : "Eva Biberg",
+      "signed" : 1478342264400000,
+      "approvedForPatient" : true,
+      "informationType" : "lko",
+      "nullified" : false,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "SE55643237481007",
+      "careProviderHsaId" : "SE5564323748-0001",
+      "accountableProfessional" : {
+        "authorTime" : 1429252758000,
+        "name" : "Eva Biberg",
+        "hsaId" : null,
+        "role" : null,
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Barn- och Ungdomsmed mottagn, Värnamo",
+          "hsaId" : null,
+          "email" : null,
+          "address" : "Doktorsgatan , 331 85 VÄRNAMO",
+          "phone" : null,
+          "location" : null
+        }
+      },
+      "registrationRecord" : {
+        "date" : 1429218000000,
+        "note" : null,
+        "riskCategories" : [ ],
+        "patientAdverseEffects" : [ ],
+        "careGiverOrg" : {
+          "name" : "Mawell",
+          "hsaId" : "SE5564323748-0001",
+          "email" : null,
+          "address" : null,
+          "phone" : null,
+          "location" : null
+        },
+        "careGiverContact" : null,
+        "sourceSystemContact" : {
+          "hsaId" : null,
+          "name" : "Thord Arbin",
+          "phone" : null,
+          "email" : null,
+          "address" : null
+        },
+        "careUnitSmiId" : null
+      },
+      "administrationRecord" : {
+        "vaccinationProgramName" : null,
+        "prescriberOrg" : null,
+        "performerOrg" : {
+          "name" : "Sjukhus A",
+          "hsaId" : "SE55643237481007",
+          "email" : null,
+          "address" : null,
+          "phone" : null,
+          "location" : null
+        },
+        "anatomicalSite" : "Vä arm",
+        "route" : "I.M.",
+        "isDoseComplete" : true,
+        "doseOrdinalNumber" : 2,
+        "numberOfPrescribedDoses" : 2,
+        "sourceDescription" : null,
+        "commentPrescription" : null,
+        "commentAdministration" : null,
+        "patientAdverseEffects" : [ ],
+        "vaccineType" : "Tick-borne encephalitis vaccine",
+        "vaccineName" : "Encepur Barn",
+        "vaccineBatchId" : "146031F",
+        "vaccineManufacturer" : "Novartis Vaccines and Diagnostics",
+        "vaccineTargetDiseases" : [ "TBE, fästingburen virusencefalit" ],
+        "prescriber" : null,
+        "performer" : {
+          "hsaId" : null,
+          "name" : "Eva Biberg",
+          "phone" : null,
+          "email" : null,
+          "address" : null
+        },
+        "dose" : {
+          "quantity" : null,
+          "displayName" : "Encepur Barn 0,25 ml"
+        }
+      }
+    }, {
+      "id" : "9c752b81-6f1d-4504-9ee3-02e0e40661e0@T_SERVICES_SE165565594230-108R",
+      "index" : null,
+      "time" : 1429563600000,
+      "signedBy" : "Eva Biberg",
+      "signed" : 1827185806800000,
+      "approvedForPatient" : true,
+      "informationType" : "lko",
+      "nullified" : false,
+      "nullifiedReason" : null,
+      "careUnitHsaId" : "SE55643237481007",
+      "careProviderHsaId" : "SE5564323748-0001",
+      "accountableProfessional" : {
+        "authorTime" : 1429611299000,
+        "name" : "Eva Biberg",
+        "hsaId" : null,
+        "role" : null,
+        "careUnitHsaId" : null,
+        "orgUnit" : {
+          "name" : "Barn- och Ungdomsmed mottagn, Värnamo",
+          "hsaId" : null,
+          "email" : null,
+          "address" : "Doktorsgatan , 331 85 VÄRNAMO",
+          "phone" : null,
+          "location" : null
+        }
+      },
+      "registrationRecord" : {
+        "date" : 1429563600000,
+        "note" : null,
+        "riskCategories" : [ ],
+        "patientAdverseEffects" : [ "Huvudverk" ],
+        "careGiverOrg" : {
+          "name" : "Jönköpings län",
+          "hsaId" : null,
+          "email" : null,
+          "address" : null,
+          "phone" : null,
+          "location" : null
+        },
+        "careGiverContact" : null,
+        "sourceSystemContact" : {
+          "hsaId" : null,
+          "name" : "Thord Arbin",
+          "phone" : null,
+          "email" : null,
+          "address" : null
+        },
+        "careUnitSmiId" : null
+      },
+      "administrationRecord" : {
+        "vaccinationProgramName" : null,
+        "prescriberOrg" : null,
+        "performerOrg" : null,
+        "anatomicalSite" : "Vä arm",
+        "route" : "I.M.",
+        "isDoseComplete" : false,
+        "doseOrdinalNumber" : 2,
+        "numberOfPrescribedDoses" : 4,
+        "sourceDescription" : null,
+        "commentPrescription" : "Kommentar på förskrivning",
+        "commentAdministration" : "Kommentar på administration",
+        "patientAdverseEffects" : [ "Uttorkning" ],
+        "vaccineType" : null,
+        "vaccineName" : "Ambirix",
+        "vaccineBatchId" : "abc123",
+        "vaccineManufacturer" : "GlaxoSmithKline",
+        "vaccineTargetDiseases" : [ "sjukdomen" ],
+        "prescriber" : {
+          "hsaId" : "123",
+          "name" : "Eva Biberg",
+          "phone" : null,
+          "email" : null,
+          "address" : null
+        },
+        "performer" : {
+          "hsaId" : null,
+          "name" : "Eva Biberg",
+          "phone" : null,
+          "email" : null,
+          "address" : null
+        },
+        "dose" : {
+          "quantity" : null,
+          "displayName" : "Ambirix 1 ml"
+        }
+      }
+    } ],
+    "blockedCareProviders" : [ ]
+  }
+}
